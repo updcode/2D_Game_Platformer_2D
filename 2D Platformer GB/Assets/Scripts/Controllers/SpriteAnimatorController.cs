@@ -19,7 +19,7 @@ namespace PlatformerMVC
             {
                 if (Sleep) return;
 
-                Counter += Time.deltaTime + Speed;
+                Counter += Time.deltaTime * Speed;
 
                 if (Loop)
                 {
